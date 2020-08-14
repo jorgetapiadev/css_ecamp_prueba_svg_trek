@@ -1,0 +1,14 @@
+// Animación gráfico
+
+
+@mixin keyframes($opacidades) {
+    
+  @keyframes opacidad {
+    0% {opacity: 0;}
+    20% {opacity: .2;}
+    40% {opacity: .3;}
+    60% {opacity: .6;}
+    80% {opacity: .8;}
+    100% {opacity: 1;}
+  }
+}

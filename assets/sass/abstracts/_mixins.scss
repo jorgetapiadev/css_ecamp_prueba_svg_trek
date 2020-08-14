@@ -1,0 +1,8 @@
+//mixins
+//768px = max md Medium bootstrap 
+@mixin for-tablet-portrait-up {
+    @media  screen and (min-width: 768px) { @content; }
+  }
+  @mixin for-tablet-portrait-down {
+    @media  screen and (max-width: 767px) { @content; }
+  }

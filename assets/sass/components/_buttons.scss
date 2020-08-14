@@ -1,0 +1,60 @@
+// Botones navbar
+@import '../abstracts/varibles';
+@import '../base/typography';
+
+%shadow{
+  box-shadow: 1rem 1rem 1rem $gray; 
+}
+%boton-first {
+  background-color: $ball-blue;
+  color: $white !important;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  text-align: center;
+  border-radius: 0px !important;
+
+
+  &:hover {
+    background-color: $middle-blue;
+    color: $white;
+    @extend %shadow;
+  }
+
+  &:focus {
+    background-color: $lavender-gray;
+    color: $white;
+    @extend %shadow;
+  }
+
+} 
+
+%boton-second{
+  color: $raisin-black;
+  &:hover {
+      background-color: $gray;
+      color: $onyx;
+      @extend %shadow;
+    }
+    &:focus {
+      background-color: $lavender-gray;
+      border:0.1rem ;
+      @extend %shadow;
+    }
+} 
+
+.navigation__boton-first {
+   @extend %boton-first;
+   margin-right: 0.8rem;
+   margin-left: 0.8rem;
+  }
+  
+  .navigation__boton-second {
+    @extend %boton-second;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+  
+  .prices_button {
+    @extend %boton-first;
+   }
+

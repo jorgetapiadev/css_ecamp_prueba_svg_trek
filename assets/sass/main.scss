@@ -1,0 +1,26 @@
+//@ imports
+
+//Abstracts
+@import './abstracts/mixins';
+@import './abstracts/varibles';
+
+//Vendors 
+@import './vendors/bootstrap-4.5.0/bootstrap.scss';
+@import './vendors/fontawesome-free-5.13.1/scss/fontawesome.scss';
+//Base
+@import './base/reset';
+@import './base/typography';
+@import './base/animation';
+
+
+//Layout 
+@import './layout/section';
+@import './layout/footer';
+
+//Components
+@import './components/buttons';
+@import './components/navbar';
+
+//Pages
+
+//Themes

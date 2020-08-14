@@ -1,0 +1,28 @@
+//navbar
+.navigation {
+    background: rgba(255, 255, 255, 0.93);
+    font-family: $raleway;
+    color: $raisin-black;
+   
+    .logo{
+        &:hover {
+          @extend %shadow;
+        }
+        }
+    ul {
+        display: flex;
+        align-items: center;
+            li {
+              padding: 1em;
+              text-align: center;
+              a {
+                color: $raisin-black;
+                &:hover {
+                    @extend %shadow;
+
+                }
+              }
+            }
+    }
+}
+
